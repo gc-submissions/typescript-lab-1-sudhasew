@@ -18,7 +18,7 @@ const mountains: Mountain[] = [
 ];
 console.log(mountains);
 
-function findNameOfTallestMountain(mountains: Mountain[]) {
+function findNameOfTallestMountain(mountains: Mountain[]): string {
   if (mountains.length === 0) {
     return "";
   }
