@@ -32,7 +32,9 @@ function findNameOfTallestMountain(mountains: Mountain[]) {
   }
   console.log("tallestMountain", tallestMountain);
   console.log("tallestMountainName", tallestMountainName);
+  return tallestMountainName;
 }
+
 findNameOfTallestMountain(mountains);
 
 export { Mountain, findNameOfTallestMountain };
