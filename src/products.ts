@@ -22,15 +22,15 @@ const products: Product[] = [
 ];
 console.log(products);
 
-function calcAverageProductPrice(product: Product[]): number {
-  if (product.length === 0) {
+function calcAverageProductPrice(products: Product[]): number {
+  if (products.length === 0) {
     return 0;
   }
   var i = 0,
     sum = 0,
-    len = product.length;
+    len = products.length;
   while (i < len) {
-    sum = sum + product[i++].price;
+    sum = sum + products[i++].price;
     console.log(sum);
   }
   let average = sum / len;
